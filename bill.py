@@ -1,0 +1,10 @@
+a=float(input("Total amount to be paid "))
+tip=float((a)*(0.07))
+print("tip:",tip)
+gst=float((a)*(0.18))
+print("GST:",gst)
+b=a+tip+gst
+print("Total amount is: ",b)
+c=float(input("Enter the number of persons "))
+d=float(b/c)
+print("Each persion has to pay: ",d)
